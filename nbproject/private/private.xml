@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="4USER">
+            <file>file:/D:/4USER/Store/src/java/dal/GenericDAO.java</file>
+            <file>file:/D:/4USER/Store/web/view/homepage/product-details.jsp</file>
+            <file>file:/D:/4USER/Store/src/java/entity/Role.java</file>
+            <file>file:/D:/4USER/Store/src/java/dal/implement/RoleDAO.java</file>
+            <file>file:/D:/4USER/Store/web/view/authen/login.jsp</file>
+            <file>file:/D:/4USER/Store/src/java/entity/Account.java</file>
+            <file>file:/D:/4USER/Store/src/java/entity/Category.java</file>
+            <file>file:/D:/4USER/Store/src/java/dal/implement/ProductDAO.java</file>
+            <file>file:/D:/4USER/Store/web/view/admin/deleteProductModal.jsp</file>
+            <file>file:/D:/4USER/Store/src/java/controller/authen/AuthenticationController.java</file>
+            <file>file:/D:/4USER/Store/web/view/common/homePage/header-top-area.jsp</file>
+            <file>file:/D:/4USER/Store/web/view/admin/editProductModal.jsp</file>
+            <file>file:/D:/4USER/Store/src/java/dal/implement/AccountDAO.java</file>
+            <file>file:/D:/4USER/Store/web/view/common/admin/breadcrumbs.jsp</file>
+            <file>file:/D:/4USER/Store/web/view/admin/dashboard.jsp</file>
+            <file>file:/D:/4USER/Store/src/java/controller/admin/ProductAdminServlet.java</file>
+            <file>file:/D:/4USER/Store/web/view/admin/addProductModal.jsp</file>
+        </group>
+    </open-files>
+</project-private>
