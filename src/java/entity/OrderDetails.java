@@ -19,11 +19,10 @@ import lombok.ToString;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Account {
+public class OrderDetails {
+
     private int id;
-    private String username;
-    private String password;
-    private String email;
-    private String address;
-    private int roleId;
+    private int quantity;
+    private int productId;
+    private int orderId;
 }

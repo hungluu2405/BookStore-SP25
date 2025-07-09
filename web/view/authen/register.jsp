@@ -6,7 +6,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-    <!-- Mirrored from htmldemo.net/koparion/koparion/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 17:30:39 GMT -->
+
+    <!-- Mirrored from htmldemo.net/koparion/koparion/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 17:30:57 GMT -->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -26,7 +27,6 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/meanmenu.min.css">
         <!-- owl.carousel css -->
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/owl.carousel.css">
-        <!-- font-awesome css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
               integrity="sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg=="
               crossorigin="anonymous"
@@ -42,7 +42,8 @@
         <!-- modernizr css -->
         <script src="${pageContext.request.contextPath}/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body class="login">
+
+    <body class="register">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -66,48 +67,49 @@
             <!-- header-area-end -->
             <!-- breadcrumbs-area-start -->
         <jsp:include page="../common/homePage/breadcrumbs-area.jsp"></jsp:include>
-            <!-- breadcrumbs-area-end -->
-            <!-- user-login-area-start -->
-            <div class="user-login-area mb-70">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="login-title text-center mb-30">
-                                <h2>Login</h2>
-                                <p>Please login to start the experience<br></p>
-                            </div>
+        <!-- breadcrumbs-area-end -->
+        <!-- user-login-area-start -->
+        <div class="user-login-area mb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="login-title text-center mb-30">
+                            <h2>Sign Up</h2>
+                            <p>Create your account to start experience<br></p>
                         </div>
-                        <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
-                            <div class="login-form">
-                                <form action="authen?action=login" method="POST">
-                                <div class="single-login">
-                                    <label>Username or email<span>*</span></label>
-                                    <input type="text" name="username"/>
-                                </div>
-                                <div class="single-login">
-                                    <label>Passwords <span>*</span></label>
-                                    <input type="password" name="password"/>
-                                </div>
-                               <div class="single-login single-login-2">
-                                  <a href="#" onclick="return this.closest('form').submit()">Login</a>
-                                  </div>
+                    </div>
+                    <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
+                        <div class="billing-fields">
+                            <div class="single-register">
+                                <form action="authen?action=sign-up" method="POST" id="signUpForm">
+                                    <label>Account password<span>*</span></label>
+                                    <input type="text" placeholder="Username" name="username"/>
+                                    <br/>
+                                    <label>Password<span>*</span></label>
+                                    <input type="password" placeholder="Password" name="password" />
+                                    <br/>
                                     <span style="color:red">${error}</span>
-                                <a href="#">Lost your password?</a>
-                           </form>
+                                </form>
+                            </div>
+                            
+                            <div class="single-register">
+                                <a href="#"
+                                   onclick="document.querySelector('#signUpForm').submit()">Register</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- user-login-area-end -->
-            <!-- footer-area-start -->
+        </div>
+        <!-- user-login-area-end -->
+        <!-- footer-area-start -->
         <jsp:include page="../common/homePage/footer.jsp"></jsp:include>
-            <!-- footer- area-end -->
+        <!-- footer-area-end -->
 
 
-            <!-- all js here -->
-            <!-- jquery latest version -->
-            <script src="${pageContext.request.contextPath}/js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- all js here -->
+        <!-- jquery latest version -->
+        <script src="${pageContext.request.contextPath}/js/vendor/jquery-1.12.4.min.js"></script>
 
 
         <!-- bootstrap js -->
@@ -136,5 +138,6 @@
         <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
-    <!-- Mirrored from htmldemo.net/koparion/koparion/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 17:30:39 GMT -->
+
+    <!-- Mirrored from htmldemo.net/koparion/koparion/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 17:30:57 GMT -->
 </html>
